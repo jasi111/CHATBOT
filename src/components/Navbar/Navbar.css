@@ -1,0 +1,49 @@
+.nav{
+width:100%;
+/* position:fixed; */
+
+    /* background-color:aliceblue; */
+    text-align: center;
+    /* padding:20px 0px; */
+    /* background: linear-gradient(#65C7F7,#0052D4); */
+background:#8FE3FA;
+    color:#2A83E3;
+ /* padding:10px; */
+    /* background-color:aliceblue; */
+    
+}
+
+@media only screen   
+  and (max-device-width: 1099px){
+      .nav{
+          position:fixed;
+      }
+
+  }
+
+/* Moto G4 & Galaxy S5*/
+@media only screen   
+and (min-device-width: 300px)
+and (max-device-width: 399px){
+.nav{
+    /* padding:10px 0px; */
+
+    /* padding-left:20px; */
+    /* text-align: left; */
+    
+
+}
+}
+
+/* iphone5/se */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) 
+and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71)
+{
+.nav{
+    text-align: center;
+    padding-left:0px;
+    padding:0px 0px;
+
+}
+
+}
