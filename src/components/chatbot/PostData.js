@@ -36,7 +36,7 @@ class PostData extends Component {
 
     render() {
         return (
-            <div>Thank you !</div>
+            <div>Thank you , Have a Nice Day !</div>
         );
     }
 };

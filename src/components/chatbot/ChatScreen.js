@@ -53,12 +53,13 @@ function ChatScreen() {
                     id: 'intro',
                     message: 'Hi, I am a Frontend Developer, Looking for Oppurtunities',
                     trigger: 'q-contact',
+                    placeholder:'Please Wait for the message',
                 },
 
                 {
                     id: 'q-contact',
                     message:'Do you like to get my contact Details',
-                    placeholder:'Please Select from the options',
+                    placeholder:'Please Wait for the message',
                     trigger:'giveContactDetails'
                 },
 

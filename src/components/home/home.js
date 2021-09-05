@@ -1,7 +1,6 @@
 import React from 'react';
 import ChatScreen from '../chatbot/ChatScreen';
-// import "./home.css";
-import "./styles.css";
+import "./home.css";
 
 function Home() {
     return (
@@ -13,7 +12,7 @@ function Home() {
 
             <div className="imgColumn">
               
-                <img src="herowhite.svg" width="60%" className="heroImage" />
+                <img src="heroImage.svg" width="60%" className="heroImage" />
 
             </div>
 
