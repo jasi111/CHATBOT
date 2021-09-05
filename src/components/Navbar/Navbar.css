@@ -6,37 +6,47 @@ width:100%;
     text-align: center;
     /* padding:20px 0px; */
     /* background: linear-gradient(#65C7F7,#0052D4); */
-background:#8FE3FA;
-    color:#2A83E3;
+background:#98DCE7;
+    color:#328CE5;
  /* padding:10px; */
     /* background-color:aliceblue; */
-    
+    max-height:auto;
 }
+
+.navImage{
+    display:none
+}
+
+/* @media(max-width: 1000px){
+.navImage{
+    display:block;
+} */
+
 
 @media only screen   
   and (max-device-width: 1099px){
       .nav{
-          position:fixed;
+          /* position:fixed; */
       }
 
   }
 
 /* Moto G4 & Galaxy S5*/
-@media only screen   
+/* @media only screen   
 and (min-device-width: 300px)
 and (max-device-width: 399px){
-.nav{
+.nav{ */
     /* padding:10px 0px; */
 
     /* padding-left:20px; */
     /* text-align: left; */
     
 
-}
-}
+/* }
+} */
 
 /* iphone5/se */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) 
+/* @media only screen and (min-device-width: 320px) and (max-device-width: 568px) 
 and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71)
 {
 .nav{
@@ -44,6 +54,5 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71)
     padding-left:0px;
     padding:0px 0px;
 
-}
+} */
 
-}

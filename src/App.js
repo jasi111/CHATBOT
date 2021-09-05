@@ -15,10 +15,7 @@ function App() {
     <div>
   {/* <ChatScreen/> */}
     <Navbar/>
-     <Home></Home>
-   
-     
-     
+     <Home></Home>     
     </div>
   );
 }

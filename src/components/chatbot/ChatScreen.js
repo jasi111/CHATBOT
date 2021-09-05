@@ -10,17 +10,17 @@ function ChatScreen() {
 
     // Styled Component's Props
     const theme = {
-        background: '#f5f8fb',
+        background: '#A7C1E6',
         fontFamily: 'Helvetica Neue',
-        headerBgColor: '#2A83E3',
+        headerBgColor: '#98DCE7',
         headerFontColor: '#fff',
-        headerFontSize: '15px',
+        headerFontSize: '19px',
         botBubbleColor: '#328CE5',
         botFontColor: '#ffff',
-        botFontSize:'20px',
+        botFontSize:'30px',
         userBubbleColor: '#F5F5F5',        
         userFontColor: '#4a4a4a',
-        width:"100%",
+        // width:"100%",
         
        
         
@@ -30,7 +30,7 @@ function ChatScreen() {
       const config ={
         width:"100%",
         
-        // height:"600px",
+        // height:"100vh",
         // height:"",
         //   height:"auto",
         //   marginLleft:"auto",
@@ -40,7 +40,6 @@ function ChatScreen() {
         // padding:"10px",
           botAvatar:"bot.png",
           userAvatar:"user.png"
-
       };
 
     return (
@@ -59,6 +58,7 @@ function ChatScreen() {
                 {
                     id: 'q-contact',
                     message:'Do you like to get my contact Details',
+                    placeholder:'Please Select from the options',
                     trigger:'giveContactDetails'
                 },
 
@@ -67,7 +67,9 @@ function ChatScreen() {
                     options:[
                         {value:'y', label:"Yes", trigger:'myEmail'},
                         {value: 'n', label:"No", trigger:"share-contact"}
-                    ]
+                    ],
+                    placeholder:'Please Select from the above options',
+
                 },
 
                 {
@@ -100,7 +102,9 @@ function ChatScreen() {
                     options:[
                         {value:'y', label:"Yes", trigger:'q-email'},
                         {value: 'n', label:"No", trigger:"noShare"}
-                    ]
+                    ],
+                    placeholder:'Please Select from the above options',
+
                 },
 
 
@@ -108,6 +112,7 @@ function ChatScreen() {
                     id: "q-email",
                     message:"Please enter your email",
                     trigger:"getEmail",
+
                     },
         
                     {
@@ -124,6 +129,8 @@ function ChatScreen() {
                             
         
                         },
+                    placeholder:'Please Enter Your Email',
+
                         trigger: "endMessage"
                     },
 
@@ -141,7 +148,10 @@ function ChatScreen() {
                         
                         component:<PostData/>,
                         asMessage:true,  
+                    placeholder:'Chat Ended',
+
                         end: true,
+
                         
                     },
 
@@ -150,6 +160,8 @@ function ChatScreen() {
                         component:<NullPost/>,
                         // message:'Its Okay, Thank you for visiting this page',
                         asMessage:true, 
+                    placeholder:'Chat Ended',
+
                         end:true
                     },
 
