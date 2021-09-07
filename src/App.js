@@ -4,6 +4,7 @@ import React from "react"
 // import ChatScreen from './components/chatbot/ChatScreen';
 import Home from './components/home/home';
 import Navbar from './components/Navbar/Navbar';
+import Loading from "./Loading/Loading";
 
 
 
@@ -11,9 +12,10 @@ import Navbar from './components/Navbar/Navbar';
 
 function App() {
   
+
   return (
     <div>
-  {/* <ChatScreen/> */}
+{/* <Loading/> */}
     <Navbar/>
      <Home></Home>     
     </div>
